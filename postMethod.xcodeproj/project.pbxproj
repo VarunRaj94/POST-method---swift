@@ -12,6 +12,7 @@
 		186C5C08208DEC5D00F6BA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C5C06208DEC5D00F6BA9E /* Main.storyboard */; };
 		186C5C0A208DEC5D00F6BA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C5C09208DEC5D00F6BA9E /* Assets.xcassets */; };
 		186C5C0D208DEC5D00F6BA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C5C0B208DEC5D00F6BA9E /* LaunchScreen.storyboard */; };
+		18741DE620C10751003BF96D /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18741DE720C10751003BF96D /* JWTDecode.framework */; };
 		20A872E7C6F390CA1689668B /* Pods_postMethod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2B053A840103C39546AD35 /* Pods_postMethod.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		186C5C09208DEC5D00F6BA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186C5C0C208DEC5D00F6BA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186C5C0E208DEC5D00F6BA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18741DE720C10751003BF96D /* JWTDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JWTDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875F139208E17BA005C62EF /* postMethod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "postMethod-Bridging-Header.h"; sourceTree = "<group>"; };
 		341F9AE103C87ABA4D827009 /* Pods-postMethod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-postMethod.release.xcconfig"; path = "Pods/Target Support Files/Pods-postMethod/Pods-postMethod.release.xcconfig"; sourceTree = "<group>"; };
 		6E2B053A840103C39546AD35 /* Pods_postMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_postMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18741DE620C10751003BF96D /* JWTDecode.framework in Frameworks */,
 				20A872E7C6F390CA1689668B /* Pods_postMethod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +79,7 @@
 		25A5934C31279CC7C2763E90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18741DE720C10751003BF96D /* JWTDecode.framework */,
 				6E2B053A840103C39546AD35 /* Pods_postMethod.framework */,
 			);
 			name = Frameworks;
