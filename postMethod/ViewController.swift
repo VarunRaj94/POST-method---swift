@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JWTDecode
 
 class ViewController: UIViewController {
 
@@ -58,6 +59,19 @@ class ViewController: UIViewController {
                 print("msg: \(String(describing: msg))")
             }catch _ {
                 print ("OOps not good JSON formatted response")
+            }
+            //jwt decoding
+            do {
+                let jwt = try decode(jwt: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1YWUwNDdjNDA5NmFkMjAwMTQ3ZmUyZGQiLCJlbWFpbCI6ImZhdGNoZWVzZUBnbWFpbC5jb20iLCJ1c2VyTmFtZSI6IkZhdGNoZWVzZSIsImNyZWF0ZWRBdCI6IjE1MjQ2NDc4NzY4NzEiLCJsYXN0VXBkYXRlZCI6IjE1MjQ2NDc4NzY4NzEiLCJpYXQiOjE1MjQ2NTAwNjEsImV4cCI6MTUyNDczNjQ2MX0.Sizjhim87v2Cq0nzchRadr3hHDOqdxEICipLM8l0S4g")
+                print("jwt: \(jwt)")
+                let claim = jwt.claim(name: "email")
+                if let email = claim.string {
+                    print("Email \(email)")
+                }
+                let name = jwt.claim(name: "userName")
+                print("name \(name)")
+            } catch {
+                print("Failed to decode JWT: \(error)")
             }
         }
         task.resume()

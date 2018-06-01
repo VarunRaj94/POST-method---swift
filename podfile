@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'postMethod' do
   pod 'AFNetworking'
+pod 'JWTDecode'
 end

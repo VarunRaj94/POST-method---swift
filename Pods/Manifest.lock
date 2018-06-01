@@ -20,13 +20,16 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - JWTDecode (2.1.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - JWTDecode
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  JWTDecode: 83e8b381aafe27158d9f692cbdca2b12d61d460c
 
-PODFILE CHECKSUM: 373dde03ecdcdfcc754d42a8387fb311766630f5
+PODFILE CHECKSUM: 49050083d704dec6c8cc172fdd2520fb6a85b222
 
 COCOAPODS: 1.4.0
