@@ -368,7 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A79T4B24DZ;
 				INFOPLIST_FILE = postMethod/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) (non-recursive)\n$(PROJECT_DIR)/build/Debug-iphoneos (non-recursive)\n$(SRCROOT) (recursive)";
 				PRODUCT_BUNDLE_IDENTIFIER = cogzidel.postMethod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -386,7 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A79T4B24DZ;
 				INFOPLIST_FILE = postMethod/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) (non-recursive)\n$(PROJECT_DIR)/build/Debug-iphoneos (non-recursive)\n$(SRCROOT) (recursive)";
 				PRODUCT_BUNDLE_IDENTIFIER = cogzidel.postMethod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
