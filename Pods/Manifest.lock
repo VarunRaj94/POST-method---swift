@@ -1,3 +1,29 @@
-PODFILE CHECKSUM: d152821ad45894d5f59da48fded075ca19a77825
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JWTDecode (2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - JWTDecode
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JWTDecode: 83e8b381aafe27158d9f692cbdca2b12d61d460c
+
+PODFILE CHECKSUM: 49050083d704dec6c8cc172fdd2520fb6a85b222
 
 COCOAPODS: 1.4.0
